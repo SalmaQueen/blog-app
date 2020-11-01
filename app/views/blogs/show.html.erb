@@ -1,6 +1,8 @@
-<div class="container">
-<p id="notice"><%= notice %></p>
 
+<p id="notice"><%= notice %></p>
+<div class="container">
+<div class="card">
+<div class="content">
 <p>
   <strong>Title:</strong>
   <%= @blog.title %>
@@ -13,4 +15,6 @@
 
 <%= link_to 'Edit', edit_blog_path(@blog) %> |
 <%= link_to 'Back', blogs_path %>
+</div>
+</div>
 </div>
