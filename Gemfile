@@ -7,6 +7,7 @@ ruby '2.7.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 gem 'materialize-sass', '~> 1.0.0'
 gem 'material_icons' 
+gem 'bootstrap'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'jquery-rails'
 # Use sqlite3 as the database for Active Record
